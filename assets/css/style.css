@@ -1,0 +1,8 @@
+.matrix {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Animated-Matrix-Background-for-Desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: luminosity;
+    min-height: 45vh;
+
+}
