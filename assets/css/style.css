@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: lightslategray;
   margin: 0;
   padding: 0;
 }
@@ -14,6 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  margin-bottom: 25px;
 }
 
 h1 {
@@ -34,3 +36,40 @@ nav li {
 nav a {
   color: white;
   text-decoration: none
+}
+
+.ProfilePic  img {
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 1em;
+  margin-top: 20px;
+}
+
+section, footer {
+  text-align: center;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-item {
+  flex-basis: calc(100px);
+  margin: 0.5em;
+}
+
+.Miphy img {
+  width: 300px;
+  height: auto;
+}
