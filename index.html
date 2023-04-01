@@ -1,35 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blake's Portfolio</title>
-  <link rel="stylesheet" href="assets\css\style.css"/>
-</head>
-
-<body>
-  <header>
-    <h1>Blake Vongsavath
-      <h2>Coding Portfolio</h2>
-    </h1>
-    <nav>
-      <a href="#whoami">Who Am I?</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-    </nav>
-  </header>
-</body>
-
-<section class="matrix"></section>
-
-<main class="page-wrapper">
-  <section class="page-section" id="whoami">
-  <h3>Who Am I?</h3>
-    <section>
-      <p>
-      I am in midst of adding coding with a focus on web development to my repertoire of skills. These skills include a variety of things from Class A trucking to End User WMS support. 
-     </p>
-    </section>
-  </section>
-</main>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <div class="profile-pic">
+          <img src="./assets/images/ProfilePic.jpg" alt="Profile Picture">
+        </div>
+        <p>Hi there! My name is [Your Name], and I'm a [Your Profession] based in [Your Location]. I have [Number of Years] years of experience in [Your Field], and I'm passionate about [Your Interests].</p>
+      </section>
+      <section id="work">
+        <h2>Work</h2>
+        <ul>
+          <li>
+            <h3>[Your Job Title] at [Company Name]</h3>
+            <p>[Brief description of your responsibilities and achievements at this job.]</p>
+          </li>
+          <li>
+            <h3>[Your Job Title] at [Company Name]</h3>
+            <p>[Brief description of your responsibilities and achievements at this job.]</p>
+          </li>
+        </ul>
+        <h3>Projects</h3>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <li><a href="#">Project 3</a></li>
+        </ul>
+      </section>
+      <section id="contact-me">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

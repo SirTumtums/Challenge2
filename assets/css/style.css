@@ -1,48 +1,36 @@
-.matrix {
-    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Animated-Matrix-Background-for-Desktop.jpg");
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: luminosity;
-    background-color: rgb(4, 96, 27);
-    min-height: 45vh;
-
+* {
+  box-sizing: border-box;
 }
 
 body {
-    /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Animated-Matrix-Background-for-Desktop.jpg"); */
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(239, 234, 234);
-    background-color: rgb(11, 11, 11);
-    line-height: 1.5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    margin-top: auto;
-    background-color: rgba(78, 80, 79, 0.805);
-    text-decoration: underline lightblue;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
 }
 
-  nav{
-    flex-direction: row;
-    
-  }
+h1 {
+  margin: 0;
+}
 
-h2 {
-    text-decoration: wavy;
-    text-shadow: ;
-    color: rgb(5, 246, 157);
-  }
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  main {
-    color: rgb(0, 255, 98);
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 500px;
-  }
+nav li {
+  margin-left: 1em;
+}
 
-  h3 {
-    text-align: center;
-    text-decoration: underline cornflowerblue;
-  }
+nav a {
+  color: white;
+  text-decoration: none
